@@ -1,0 +1,6 @@
+export const GET_VIDEO = 'VIDEO/GET_VIDEO';
+export const VIDEO_COUNT = 'VIDEO/VIDEO_COUNT';
+export const PER_PAGE = 'VIDEO/PER_PAGE';
+export const CURRENT_VIDEO = 'VIDEO/CURRENT_VIDEO';
+export const PAGE_NUMBER = 'VIDEO/PAGE_NUMBER';
+export const PAGE_SIZE = 'VIDEO/PAGE_SIZE';

@@ -1,0 +1,47 @@
+.login
+    height: 100%
+    width: 100%
+    padding: 0
+    margin: 0
+    background-color: $main-bg-color-1
+
+    .form
+        width: 100%
+        padding: 40px 50px 60px
+        background-color: #ffffff
+        transition: 1s
+        box-shadow: 0 0 20px 0 #7b7a7a
+        -webkit-box-shadow: 0 0 20px 0 #7b7a7a
+        -moz-box-shadow: 0 0 20px 0 #7b7a7a
+
+        input, button
+            border-radius: 0
+
+        input
+            //border-color: $main-br-color-2
+            background-color: $main-bg-color-4
+
+        button
+            background-color: $main-bg-color-2
+            border-color: $main-br-color-2
+
+            &:hover
+                background-color: $main-bg-color-3
+                border-color: $main-br-color-3
+
+            &.email-send
+                background-color: $main-bg-color-4
+                border-color: #ced4da
+                color: #6c757d
+                &:hover
+                    background-color: #dcdcdc
+                    border-color: #a5a5a5
+
+                &[disabled]
+                    &:hover
+                        background-color: $main-bg-color-4
+                        border-color: #ced4da
+
+        img.qr
+            width: 100%
+            margin-bottom: 20px
